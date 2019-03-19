@@ -1,0 +1,65 @@
+<Engines>
+  <Engine>
+    <Shortcut>d</Shortcut>
+    <Name>Dict CC EN/DE</Name>
+    <extURL>https://www.dict.cc/?s={q}</extURL>
+    <intURL>https://m.dict.cc/deen/?s={q}</intURL>
+    <!--<intParams width="400" height="600" top="187" />-->
+  </Engine>
+  <Engine>
+    <Shortcut>l</Shortcut>
+    <Name>Linguee EN/DE</Name>
+    <extURL>https://www.linguee.de/deutsch-englisch/search?query={q}</extURL>
+    <intURL>https://www.linguee.de/deutsch-englisch/search?query={q}</intURL>
+    <intParams />
+  </Engine>
+  <Engine>
+    <Shortcut>a</Shortcut>
+    <Name>Amazon</Name>
+    <extURL>https://www.amazon.de/s?k={q}</extURL>
+    <intURL>https://www.amazon.de/s?k={q}</intURL>
+    <intParams />
+  </Engine>
+  <Engine default="true">
+    <Shortcut>g</Shortcut>
+    <Name>Google</Name>
+    <extURL>http://www.google.de/search?q={q}</extURL>
+    <intURL>http://www.google.de/search?q={q}</intURL>
+    <intParams />
+  </Engine>
+  <Engine>
+    <Shortcut>gi</Shortcut>
+    <Name>Google Images</Name>
+    <extURL>http://www.images.google.com/images?q={q}</extURL>
+    <intURL>http://www.images.google.com/images?q={q}</intURL>
+    <intParams />
+  </Engine>
+  <Engine>
+    <Shortcut>maps</Shortcut>
+    <Name>Google Maps</Name>
+    <extURL>http://maps.google.de/?q={q}</extURL>
+    <intURL>http://maps.google.de/?q={q}</intURL>
+    <intParams />
+  </Engine>
+  <Engine>
+    <Shortcut>w</Shortcut>
+    <Name>Wikipedia</Name>
+    <extURL>https://en.wikipedia.org/w/index.php?search={q}</extURL>
+    <intURL>https://en.m.wikipedia.org/w/index.php?search={q}</intURL>
+    <!--<intParams width="400" height="600" top="47" />-->
+  </Engine>
+  <Engine>
+    <Shortcut>wa</Shortcut>
+    <Name>WolframAlpha</Name>
+    <extURL>http://wolframalpha.com/input/?i={q}</extURL>
+    <intURL>http://wolframalpha.com/input/?i={q}</intURL>
+    <intParams />
+  </Engine>
+  <Engine>
+    <Shortcut>y</Shortcut>
+    <Name>YouTube</Name>
+    <extURL>http://www.youtube.com/results?search_query={q}</extURL>
+    <intURL>http://www.youtube.com/results?search_query={q}</intURL>
+    <intParams />
+  </Engine>
+</Engines>

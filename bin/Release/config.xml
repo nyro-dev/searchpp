@@ -1,0 +1,12 @@
+<Config>
+	<GlobalHotkey>
+		<Modifiers>
+			<Modifier>2</Modifier>
+			<Modifier>8</Modifier>
+		</Modifiers>
+		<Key>0</Key>
+	</GlobalHotkey>
+	<SearchHotkey>
+		<Intern modifier="false" />
+	</SearchHotkey>
+</Config>
