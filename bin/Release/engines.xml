@@ -42,6 +42,13 @@
     <intParams />
   </Engine>
   <Engine>
+    <Shortcut>scholar</Shortcut>
+    <Name>Google Scholar</Name>
+    <extURL>http://scholar.google.de/scholar?q={q}</extURL>
+    <intURL>http://scholar.google.de/scholar?q={q}</intURL>
+    <intParams />
+  </Engine>
+  <Engine>
     <Shortcut>w</Shortcut>
     <Name>Wikipedia</Name>
     <extURL>https://en.wikipedia.org/w/index.php?search={q}</extURL>
