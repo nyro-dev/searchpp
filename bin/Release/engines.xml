@@ -49,6 +49,13 @@
     <intParams />
   </Engine>
   <Engine>
+	<Shortcut>arxiv</Shortcut>
+	<Name>arXiv</Name>
+	<extURL>https://arxiv.org/search/?query={q}&amp;searchtype=all</extURL>
+	<intURL>https://arxiv.org/search/?query={q}&amp;searchtype=all</intURL>
+	<intParams />
+  </Engine>
+  <Engine>
     <Shortcut>w</Shortcut>
     <Name>Wikipedia</Name>
     <extURL>https://en.wikipedia.org/w/index.php?search={q}</extURL>
